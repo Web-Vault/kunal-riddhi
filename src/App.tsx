@@ -1,5 +1,4 @@
-import { motion, useScroll, useSpring, AnimatePresence, useTransform } from 'framer-motion';
-import { ParallaxSection } from './components/ParallaxSection';
+import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
 import { AnimatedCard } from './components/AnimatedCard';
 import { FloatingPetals } from './components/FloatingPetals';
 import { CustomCursor } from './components/CustomCursor';
@@ -7,7 +6,7 @@ import { MusicPlayer } from './components/MusicPlayer';
 import { BackToTop } from './components/BackToTop';
 import { Countdown } from './components/Countdown';
 import { CurtainOpening } from './components/CurtainOpening';
-import { Heart, Flower, Music, Star, Minus, MapPin, Calendar, Clock, Sparkles } from 'lucide-react';
+import { Flower, Music, Star, Minus, MapPin, Calendar, Clock } from 'lucide-react';
 import { useRef, useState } from 'react';
 
 function App() {

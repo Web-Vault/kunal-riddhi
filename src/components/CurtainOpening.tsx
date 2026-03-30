@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import { MailOpen, Heart, Flower } from 'lucide-react';
+import { Heart, Flower } from 'lucide-react';
 
 interface CurtainOpeningProps {
   onOpen: () => void;
